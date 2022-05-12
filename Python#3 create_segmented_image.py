@@ -47,7 +47,3 @@ _, gT = cv2.threshold(g, 25, 255, cv2.THRESH_BINARY)
 plt.imshow(gT, cmap='gray')
 plt.axis('off')
 plt.show()
-
-
-
-
