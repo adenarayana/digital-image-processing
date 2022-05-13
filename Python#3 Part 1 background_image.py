@@ -20,7 +20,8 @@ matrixA = np.array(matrixA)    # convert to numpy array
 video.release()
 
 # display image at time t
-plt.imshow(matrixA[10,:,:], cmap='gray')
+t = 10
+plt.imshow(matrixA[t,:,:], cmap='gray')
 plt.axis('off')
 plt.show()
 
@@ -32,4 +33,3 @@ b = b.astype(np.uint8) # change the data type
 plt.imshow(b, cmap='gray')
 plt.axis('off')
 plt.show()
-
