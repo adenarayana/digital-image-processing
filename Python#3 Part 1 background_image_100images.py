@@ -18,7 +18,8 @@ matrixA = np.array(matrixA) # convert to numpy array
 video.release() # release the video object
 
 # display image at time t
-plt.imshow(matrixA[50,:,:], cmap='gray')
+t = 50
+plt.imshow(matrixA[t,:,:], cmap='gray')
 plt.axis('off')
 plt.show()
 
